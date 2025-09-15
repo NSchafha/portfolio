@@ -1,0 +1,60 @@
+/* Section background and layout */
+.coop-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4rem 1rem;
+    box-sizing: border-box;
+    color: #374151;
+}
+
+/* Card container */
+.coop-card {
+    max-width: 768px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Headings */
+.coop-card h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.coop-card h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.coop-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+.coop-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+}
+
+/* Lists */
+.coop-card ul {
+    list-style-type: disc;
+    padding-left: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.coop-card li {
+    margin-bottom: 0.25rem;
+}

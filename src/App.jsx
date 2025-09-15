@@ -1,10 +1,10 @@
 import React from 'react';
-import Page from './modules/Page.jsx';
+import OLAExperience from './modules/ola_experience.jsx';
 
 function App() {
   return (
     <div>
-      <Page />
+      <OLAExperience />
     </div>
   )
 }
